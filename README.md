@@ -67,11 +67,11 @@ Download (or git pull) the code in Beaglebone Black.
 
 Compile the c program.
 ```cpp
-$>gcc TSL2571.c -o TSL2571
+$>gcc ADS1114.c -o ADS1114
 ```
 Run the c program.
 ```cpp
-$>./TSL2571
+$>./ADS1114
 ```
 
 #####The code output is digital value of an analog input.
