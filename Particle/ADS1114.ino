@@ -10,7 +10,7 @@
 // ADS1114 I2C address is 0x48(72)
 #define Addr 0x48
 
-int raw_adc = 0
+int raw_adc = 0;
 void setup() 
 {
   // Set variable
