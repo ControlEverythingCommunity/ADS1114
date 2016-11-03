@@ -13,7 +13,7 @@ i2c = onionI2C.OnionI2C()
 # ADS1114 address, 0x48(72)
 # Select configuration register, 0x01(00)
 #		0x8483(33923)	AINP = AIN0 and AINN = AIN1, +/- 2.048V
-#						Continuous conversion mode, 128SPS
+#				Continuous conversion mode, 128SPS
 data = [0x84,0x83]
 i2c.writeBytes(0x48, 0x01, data)
 
